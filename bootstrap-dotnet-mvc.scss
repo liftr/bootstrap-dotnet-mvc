@@ -1,0 +1,34 @@
+.field-validation-error {
+  color: #b94a48;
+}
+
+.field-validation-valid, .validation-summary-valid {
+    display: none;
+}
+
+.validation-summary-errors {
+    ul {
+        margin: 0;
+        list-style: none;
+    }
+    li {
+    }
+}
+
+.input-validation-error {
+  border-color: #c87872;
+  -webkit-box-shadow: 0 0 3px rgba(171, 41, 32, 0.25);
+  -moz-box-shadow: 0 0 3px rgba(171, 41, 32, 0.25);
+  box-shadow: 0 0 3px rgba(171, 41, 32, 0.25);
+}
+
+.input-validation-error:focus {
+  border-color: #b9554d;
+  -webkit-box-shadow: 0 0 6px rgba(171, 41, 32, 0.5);
+  -moz-box-shadow: 0 0 6px rgba(171, 41, 32, 0.5);
+  box-shadow: 0 0 6px rgba(171, 41, 32, 0.5);
+}
+
+.nomargin {
+    margin: 0 0 0 0;    
+}
